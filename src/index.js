@@ -38,10 +38,3 @@ if (weather[city]) {
     `Sorry, we don't know the waether for this city. try going to <a href=""</a>`
   );
 }
-
-// write your code here
-//when loading your project, ask the user "Enter a city"(example: Paris), alert "It is currently 19°C (66°F) in Paris with a humidity of 80%"
-
-//If the city doesn't exist in the object (i.e: Sydney), alert "Sorry, we don't know the weather for this city, try going to https://www.google.com/search?q=weather+sydney". Since this is an alert, the link shouldn't be clickable.
-
-//Add this behavior to your project and submit the CodeSandbox URL
