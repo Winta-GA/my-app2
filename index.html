@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <form class="search-form">
+                <div class="row">
+                    <div class="col-9">
+                        <input type="search" placeholder=" Search city.." autofocus="on" autocomplete="off"
+                            class="form-control shadow-sm" />
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" value="search" class="form-control btn btn-info shadow-sm" />
+                    </div>
+                </div>
+            </form>
+            <h1>Lakeview, Calgary, AB</h1>
+            <ul>
+                <li>Sunday 7:24</li>
+                <li>sunny</li>
+            </ul>
+            <div class="row">
+                <div class="col-6">
+                    <div class="clearfix">
+                        <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="maincloudy-icon"
+                            class="weather-icon float-left" />
+                        <div class="float-left">
+                            <span class="temperature">-3</span><span class="degrees">℃ | <a href="#">℉</a> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <ul>
+                        <li>Chance of snow:40%</li>
+                        <li>Feels like: -21℃</li>
+                        <li>Wind: 10km/h</li>
+                    </ul>
+                </div>
+                <div class="forecast">
+                    <div class="row">
+                        <div class="col-2">
+                            <p>Mon</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="cloudy-icon">
+                            <p>1° <span class="lowest-temperature">2°</span></p>
+                        </div>
+                        <div class="col-2">
+                            <p>Tue</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                                alt="partly-cloudy-icon">
+                            <p>6° <span class="lowest-temperature">-1°</span></p>
+                        </div>
+                        <div class="col-2">
+                            <p>Wed</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/snow_light.png" alt="snow-light">
+                            <p>3° <span class="lowest-temperature">-1°</span></p>
+                        </div>
+                        <div class="col-2">
+                            <p>Thur</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                                alt="partly-cloudy-icon">
+                            <p>8° <span class="lowest-temperature">0°</span></p>
+                        </div>
+                        <div class="col-2">
+                            <p>Fri</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                                alt="partly-cloudy-icon">
+                            <p>7° <span class="lowest-temperature">-2°</span></p>
+                        </div>
+                        <div class="col-2">
+                            <p>Sat</p>
+                            <img src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                                alt="partly-cloudy-icon">
+                            <p>4° <span class="lowest-temperature">-1°</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+
+</html>
